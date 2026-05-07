@@ -1,0 +1,170 @@
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+#center {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.base {
+  display: block;
+}
+
+.framework,
+.vite {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.framework {
+  top: 10px;
+  left: 10px;
+}
+
+.vite {
+  top: 10px;
+  right: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.counter {
+  padding: 0.8em 1.5em;
+  font-weight: 600;
+}
+
+.counter.decrement {
+  background-color: #d62828;
+}
+
+.counter.decrement:hover {
+  background-color: #f77f88;
+  border-color: #f77f88;
+}
+
+.counter.reset {
+  background-color: #fcbf49;
+  color: #000;
+}
+
+.counter.reset:hover {
+  background-color: #ffd60a;
+  border-color: #ffd60a;
+}
+
+.ticks {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  margin: 3rem 0;
+}
+
+#next-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#docs,
+#social {
+  text-align: center;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0.5rem 0;
+  opacity: 0.7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo,
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
